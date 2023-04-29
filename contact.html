@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--[if IE
+      ]><meta http-equiv="X-UA-Compatible" content="IE=edge"
+    /><![endif]-->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- Place favicon.ico in the root directory -->
+    <link href="apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="favicon.ico" rel="icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat"
+      rel="stylesheet"
+    />
+    <title>WellStory</title>
+    <!-- themeforest:css -->
+    <link href="css/fontawesome.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/cookieconsent.min.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/odometer-theme-minimal.css" rel="stylesheet" />
+    <link href="css/prism-okaidia.css" rel="stylesheet" />
+    <link href="css/simplebar.css" rel="stylesheet" />
+    <link href="css/smart_wizard_all.css" rel="stylesheet" />
+    <link href="css/swiper-bundle.css" rel="stylesheet" />
+    <link href="css/dashcore.css" rel="stylesheet" />
+    <link href="css/rtl.css" rel="stylesheet" />
+    <link href="css/demo.css" rel="stylesheet" />
+    <!-- endinject -->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p> <!
+    [endif]--><!-- ./Making stripe menu navigation -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+      <div class="container">
+        <ul class="st-nav-menu nav navbar-nav">
+          <li class="st-nav-section nav-item">
+            <a class="navbar-brand" href="#main"
+              ><img
+                alt="Storyline"
+                class="logo logo-sticky d-inline-block d-md-none"
+                src="img/wellstory-logo-purple.png" />
+              <img
+                alt="Storyline"
+                class="logo d-none d-md-inline-block"
+                src="img/wellstory-logo-light.png"
+            /></a>
+          </li>
+          <li class="st-nav-section st-nav-primary nav-item">
+            <a class="st-root-link nav-link" href="index.html">Home</a
+            ><a class="st-root-link nav-link" href="features.html">Features</a
+            ><a class="st-root-link nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="st-nav-section st-nav-secondary nav-item">
+            <a
+              class="btn btn-rounded btn-outline me-3 px-3"
+              href="https://storyline-web-development.herokuapp.com"
+              target="_blank"
+              ><span class="d-md-none d-lg-inline">Pilot Login</span> </a
+            ><a
+              class="btn btn-rounded btn-solid px-3"
+              href="https://share.hsforms.com/1S20a8jlKRHefq9-tbCMlyAcyakh"
+              target="_blank"
+            >
+              <span class="d-md-none d-lg-inline">Join Waitlist</span></a
+            >
+          </li>
+          <!-- Mobile Navigation -->
+          <!-- Mobile Navigation -->
+          <li class="st-nav-section st-nav-mobile nav-item">
+            <button
+              class="st-root-link navbar-light navbar-toggler"
+              type="button"
+            >
+              <div class="navbar-toggler-icon"></div>
+            </button>
+            <div class="st-popup">
+              <div class="st-popup-container">
+                <div
+                  class="st-nav-header st-nav-section st-nav-menu nav navbar-nav"
+                >
+                  <div class="container">
+                    <img
+                      alt="Storyline"
+                      class="logo logo-sticky d-inline-block d-md-none"
+                      src="img/wellstory-logo-light.png"
+                    />
+
+                    <a class="st-popup-close-button">Close</a>
+                  </div>
+                </div>
+                <!-- <hr style="width: 80%" class="center" /> -->
+                <div class="st-dropdown-content-group">
+                  <a class="regular text-contrast" href="index.html">Home </a
+                  ><a class="regular text-contrast" href="features.html">
+                    Features </a
+                  ><a class="regular text-contrast" href="pricing.html">
+                    Pricing </a
+                  ><a class="regular text-contrast" href="contact.html">
+                    Contact</a
+                  >
+                </div>
+                <div class="st-nav-footer py-2">
+                  <hr class="" />
+                  <div
+                    class="d-flex justify-content-between px-3 align-items-stretch"
+                  >
+                    <a
+                      class="btn btn-rounded btn-outline me-3 px-3"
+                      href="https://storyline-web-development.herokuapp.com"
+                      target="_blank"
+                      style="border-color: #fff; width: 50%"
+                      ><span class="text-contrast d-lg-inline">Login</span> </a
+                    ><a
+                      class="me-3 btn btn-rounded btn-contrast text-black"
+                      href="https://share.hsforms.com/1S20a8jlKRHefq9-tbCMlyAcyakh"
+                      target="_blank"
+                      style="width: 50%"
+                    >
+                      <span class="d-lg-inline">Join Waitlist</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="st-dropdown-root">
+        <div class="st-dropdown-bg">
+          <div class="st-alt-bg"></div>
+        </div>
+
+        <div class="st-dropdown-arrow"></div>
+
+        <div class="st-dropdown-container">
+          <div class="st-dropdown-section" data-dropdown="blocks">
+            <div class="st-dropdown-content">
+              <div class="st-dropdown-content-group">
+                <div class="row">
+                  <div class="col me-4">
+                    <a
+                      class="dropdown-item"
+                      href="blocks/call-to-action.html"
+                      target="_blank"
+                      >Call to actions</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/contact.html"
+                      target="_blank"
+                      >Contact</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/counter.html"
+                      target="_blank"
+                      >Counters</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/faqs.html"
+                      target="_blank"
+                      >FAQs</a
+                    >
+                  </div>
+
+                  <div class="col me-4">
+                    <a
+                      class="dropdown-item"
+                      href="blocks/footer.html"
+                      target="_blank"
+                      >Footers</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/form.html"
+                      target="_blank"
+                      >Forms</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/navbar.html"
+                      target="_blank"
+                      >Navbar</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/navigation.html"
+                      target="_blank"
+                      >Navigation</a
+                    >
+                  </div>
+
+                  <div class="col">
+                    <a
+                      class="dropdown-item"
+                      href="blocks/pricing.html"
+                      target="_blank"
+                      >Pricing</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/slider.html"
+                      target="_blank"
+                      >Sliders</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/team.html"
+                      target="_blank"
+                      >Team</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blocks/testimonial.html"
+                      target="_blank"
+                      >Testimonials</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="st-dropdown-content-group">
+                <h3 class="link-title">Coming soon</h3>
+
+                <div class="ms-5">
+                  <span class="dropdown-item text-secondary">Dividers </span
+                  ><span class="dropdown-item text-secondary">Gallery </span
+                  ><span class="dropdown-item text-secondary">Screenshots</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="st-dropdown-section" data-dropdown="pages">
+            <div class="st-dropdown-content">
+              <div class="st-dropdown-content-group">
+                <div class="mb-4">
+                  <h3 class="text-darker light text-nowrap">
+                    <span class="bold regular">Useful pages</span> you&#39;ll
+                    need
+                  </h3>
+
+                  <p class="text-secondary mt-0">Get a complete design stack</p>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <ul class="me-4">
+                      <li>
+                        <h4 class="text-uppercase regular">Error</h4>
+                      </li>
+                      <li><a href="403.html" target="_blank">403 Error</a></li>
+                      <li><a href="404.html" target="_blank">404 Error</a></li>
+                      <li><a href="500.html" target="_blank">500 Error</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <ul class="me-4">
+                      <li>
+                        <h4 class="text-uppercase regular">User</h4>
+                      </li>
+                      <li><a href="login.html" target="_blank">Login</a></li>
+                      <li>
+                        <a href="register.html" target="_blank">Register</a>
+                      </li>
+                      <li><a href="forgot.html" target="_blank">Forgot</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <ul>
+                      <li>
+                        <h4 class="text-uppercase regular">Extra</h4>
+                      </li>
+                      <li>
+                        <a href="pricing.html" target="_blank">Pricing</a>
+                      </li>
+                      <li><a href="terms.html" target="_blank">Terms</a></li>
+                      <li><a href="faqs.html" target="_blank">FAQ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="st-dropdown-content-group">
+                <a class="dropdown-item bold" href="about.html">About </a
+                ><a class="dropdown-item bold" href="contact.html"> Contact </a
+                ><a class="dropdown-item bold" href="pricing.html"> Pricing</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="st-dropdown-section" data-dropdown="components">
+            <div class="st-dropdown-content">
+              <div class="st-dropdown-content-group">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="bg-dark text-contrast icon-md center-flex rounded-circle me-2"
+                  ></div>
+
+                  <div class="flex-fill">
+                    <h3 class="link-title m-0">
+                      <a
+                        class="dropdown-item"
+                        href="components/color.html"
+                        target="_blank"
+                        >Colors</a
+                      >
+                    </h3>
+
+                    <p class="m-0 text-secondary">
+                      <a
+                        class="dropdown-item"
+                        href="components/color.html"
+                        target="_blank"
+                        >Get to know DashCore color options</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="bg-secondary text-contrast icon-md center-flex rounded-circle me-2"
+                  ></div>
+
+                  <div class="flex-fill">
+                    <h3 class="link-title m-0">
+                      <a
+                        class="dropdown-item"
+                        href="components/form-controls.html"
+                        target="_blank"
+                        >Forms</a
+                      >
+                    </h3>
+
+                    <p class="m-0 text-secondary">
+                      <a
+                        class="dropdown-item"
+                        href="components/form-controls.html"
+                        target="_blank"
+                        >All forms elements</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="bg-success text-contrast icon-md center-flex rounded-circle me-2"
+                  ></div>
+
+                  <div class="flex-fill">
+                    <h3 class="link-title m-0">
+                      <a
+                        class="dropdown-item"
+                        href="components/accordion.html"
+                        target="_blank"
+                        >Accordion</a
+                      >
+                    </h3>
+
+                    <p class="m-0 text-secondary">
+                      <a
+                        class="dropdown-item"
+                        href="components/accordion.html"
+                        target="_blank"
+                        >Useful accordion elements</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-4">
+                  <div
+                    class="bg-info text-contrast icon-md center-flex rounded-circle me-2"
+                  ></div>
+
+                  <div class="flex-fill">
+                    <h3 class="link-title m-0">
+                      <a
+                        class="dropdown-item"
+                        href="components/cookie-law.html"
+                        target="_blank"
+                        >CookieLaw</a
+                      >
+                    </h3>
+
+                    <p class="m-0 text-secondary">
+                      <a
+                        class="dropdown-item"
+                        href="components/cookie-law.html"
+                        target="_blank"
+                        >Comply with the hideous EU Cookie Law</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <h4 class="text-uppercase regular">Huge components list</h4>
+
+                <div class="row">
+                  <div class="col me-4">
+                    <a
+                      class="dropdown-item"
+                      href="components/alert.html"
+                      target="_blank"
+                      >Alerts</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="components/badge.html"
+                      target="_blank"
+                      >Badges</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="components/button.html"
+                      target="_blank"
+                      >Buttons</a
+                    >
+                  </div>
+
+                  <div class="col me-4">
+                    <a
+                      class="dropdown-item"
+                      href="components/overlay.html"
+                      target="_blank"
+                      >Overlay</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="components/progress.html"
+                      target="_blank"
+                      >Progress</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="components/lightbox.html"
+                      target="_blank"
+                      >Lightbox</a
+                    >
+                  </div>
+
+                  <div class="col me-4">
+                    <a
+                      class="dropdown-item"
+                      href="components/tab.html"
+                      target="_blank"
+                      >Tabs</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="components/tables.html"
+                      target="_blank"
+                      >Tables</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="components/typography.html"
+                      target="_blank"
+                      >Typography</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="st-dropdown-content-group">
+                <a
+                  class="dropdown-item"
+                  href="components/wizard.html"
+                  target="_blank"
+                  >Wizard </a
+                ><span
+                  class="dropdown-item d-flex align-items-center text-muted"
+                  >Timeline </span
+                ><span
+                  class="dropdown-item d-flex align-items-center text-muted"
+                  >Process
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="st-dropdown-section" data-dropdown="blog">
+            <div class="st-dropdown-content">
+              <div class="st-dropdown-content-group">
+                <div class="row">
+                  <div class="col me-4">
+                    <h4 class="regular text-uppercase">Full width</h4>
+                    <a
+                      class="dropdown-item"
+                      href="blog/blog-post.html"
+                      target="_blank"
+                      >Single post</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blog/blog-grid.html"
+                      target="_blank"
+                      >Posts Grid</a
+                    >
+                  </div>
+
+                  <div class="col me-4">
+                    <h4 class="regular text-uppercase">Sidebar left</h4>
+                    <a
+                      class="dropdown-item"
+                      href="blog/blog-post-sidebar-left.html"
+                      target="_blank"
+                      >Single post</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blog/blog-grid-sidebar-left.html"
+                      target="_blank"
+                      >Posts Grid</a
+                    >
+                  </div>
+
+                  <div class="col me-4">
+                    <h4 class="regular text-uppercase">Sidebar right</h4>
+                    <a
+                      class="dropdown-item"
+                      href="blog/blog-post-sidebar-right.html"
+                      target="_blank"
+                      >Single post</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="blog/blog-grid-sidebar-right.html"
+                      target="_blank"
+                      >Posts Grid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="st-dropdown-section" data-dropdown="shop">
+            <div class="st-dropdown-content">
+              <div class="st-dropdown-content-group">
+                <div class="d-flex align-items-center">
+                  <div
+                    class="bg-success text-contrast icon-md center-flex rounded-circle me-2"
+                  ></div>
+
+                  <div class="flex-fill">
+                    <h3 class="link-title m-0">
+                      <a class="dropdown-item mb-4" href="shop/" target="_blank"
+                        >Home</a
+                      >
+                    </h3>
+
+                    <p class="m-0 text-secondary">
+                      <a class="dropdown-item mb-4" href="shop/" target="_blank"
+                        >Online store home with an outstanding UX</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center">
+                  <div
+                    class="bg-info text-contrast icon-md center-flex rounded-circle me-2"
+                  ></div>
+
+                  <div class="flex-fill">
+                    <h3 class="link-title m-0">
+                      <a
+                        class="dropdown-item"
+                        href="shop/cart.html"
+                        target="_blank"
+                        >Cart</a
+                      >
+                    </h3>
+
+                    <p class="m-0 text-secondary">
+                      <a
+                        class="dropdown-item"
+                        href="shop/cart.html"
+                        target="_blank"
+                        >Online store shopping cart</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="st-dropdown-content-group">
+                <h3 class="link-title">Checkout</h3>
+
+                <div class="ms-5">
+                  <a
+                    class="dropdown-item text-secondary"
+                    href="shop/checkout-customer.html"
+                    target="_blank"
+                    >Customer </a
+                  ><a
+                    class="dropdown-item text-secondary"
+                    href="shop/checkout-shipping.html"
+                    target="_blank"
+                    >Shipping Information </a
+                  ><a
+                    class="dropdown-item text-secondary"
+                    href="shop/checkout-payment.html"
+                    target="_blank"
+                    >Payment Methods </a
+                  ><a
+                    class="dropdown-item text-secondary"
+                    href="shop/checkout-confirmation.html"
+                    target="_blank"
+                    >Order Review
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="overflow-hidden">
+      <!-- ./Page header -->
+      <header class="page header text-contrast bg-primary" style="">
+        <div class="container pb-9">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="bold display-md-4 text-contrast mb-4">Contact us</h1>
+
+              <p class="lead text-contrast">
+                Get in touch and let us know how we can help. Fill out the form
+                and we&rsquo;ll be in touch as soon as possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="position-relative">
+        <div
+          class="shape-divider shape-divider-bottom shape-divider-fluid-x text-contrast"
+        >
+          <svg viewbox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <!-- ./Contact Us -->
+
+      <section class="section mt-n7">
+        <div class="container bring-to-front pt-0">
+          <div class="row align-items-center gap-y">
+            <div class="col-md-6">
+              <div class="shadow bg-contrast p-4 rounded">
+                <form
+                  action="srv/contact.php"
+                  class="form form-contact"
+                  data-response-message-animation="slide-in-up"
+                  method="post"
+                  name="form-contact"
+                >
+                  <div class="mb-4">
+                    <label class="text-dark bold mb-0" for="contact_email"
+                      >Email address</label
+                    >
+
+                    <div
+                      class="small form-text text-secondary mt-0 mb-2 italic"
+                      id="emailHelp"
+                    >
+                      We&#39;ll never share your email with anyone else.
+                    </div>
+                    <input
+                      class="form-control bg-contrast"
+                      id="contact_email"
+                      name="Contact[email]"
+                      placeholder="Valid Email"
+                      required=""
+                      type="email"
+                    />
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="text-dark bold" for="contact_email"
+                      >Subject</label
+                    >
+                    <input
+                      class="form-control bg-contrast"
+                      id="contact_subject"
+                      name="Contact[subject]"
+                      placeholder="Subject"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="text-dark bold" for="contact_email"
+                      >Message</label
+                    ><textarea
+                      class="form-control bg-contrast"
+                      id="contact_message"
+                      name="Contact[message]"
+                      placeholder="What do you want to let us know?"
+                      required=""
+                      rows="8"
+                    ></textarea>
+                  </div>
+
+                  <div class="d-grid gap-2">
+                    <button
+                      class="btn btn-primary btn-rounded"
+                      data-loading-text="Sending..."
+                      id="contact-submit"
+                      name="submit"
+                      type="submit"
+                      style="background-color: #6525f2"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+
+                <div class="response-message">
+                  <div class="section-heading">
+                    <p class="font-md m-0">Thank you!</p>
+
+                    <p class="response">
+                      Your message has been send, we will contact you as soon as
+                      possible.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="my-4" />
+            <nav
+              class="nav justify-content-center justify-content-md-start"
+            ></nav>
+          </div>
+        </div>
+      </section>
+      <!-- ./Footer - Simple -->
+
+      <footer class="site-footer section b-t bg-primary">
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+          <div class="row justify-content-start">
+            <a
+              class="d-flex justify-content-start navbar-brand mx-sm-auto"
+              href="#main"
+            >
+              <img
+                alt="Storyline"
+                class="logo d-md-inline-block"
+                src="img/wellstory-logo-light.png"
+              />
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mt-5 me-md-6">
+              <div class="text-center text-md-start">
+                <div
+                  class="d-flex align-items-md-stretch align-items-start flex-column"
+                >
+                  <h4 class="bold text-contrast">
+                    Therapy done the right way.
+                  </h4>
+                  <a
+                    class="btn btn-contrast btn-rounded mt-4"
+                    href="https://share.hsforms.com/1S20a8jlKRHefq9-tbCMlyAcyakh"
+                    >Join Waitlist</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mt-5 me-md-5">
+              <div class="text-start text-md-start">
+                <div
+                  class="d-flex align-items-start align-items-md-stretch flex-column"
+                >
+                  <h6 class="text-contrast nav-header text-nowrap">
+                    The Well Story App
+                  </h6>
+                  <nav
+                    class="navbar d-flex align-items-start align-items-md-start flex-column"
+                  >
+                    <ul
+                      class="nav d-flex align-items-start align-items-md-start flex-column"
+                    >
+                      <li class="">
+                        <a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="index.html"
+                          >Home</a
+                        >
+                        <a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="https://share.hsforms.com/1S20a8jlKRHefq9-tbCMlyAcyakh"
+                          >Join Waitlist</a
+                        ><a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="features.html"
+                          >Features</a
+                        ><a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="pricing.html"
+                          >Pricing</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mt-5 me-md-5">
+              <div class="text-start text-md-start">
+                <div
+                  class="d-flex align-items-start align-items-md-stretch flex-column"
+                >
+                  <h6 class="text-contrast nav-header">About</h6>
+                  <nav
+                    class="navbar d-flex align-items-start align-items-md-start flex-column"
+                  >
+                    <ul
+                      class="nav d-flex align-items-start align-items-md-start flex-column"
+                    >
+                      <li class="">
+                        <a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="features.html"
+                          >Team</a
+                        ><a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="pricing.html"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mt-5">
+              <div class="text-start text-md-start">
+                <div
+                  class="d-flex align-items-start align-items-md-stretch flex-column"
+                >
+                  <nav
+                    class="navbar d-flex align-items-start align-items-md-start flex-column"
+                  >
+                    <ul
+                      class="nav d-flex align-items-start align-items-md-start flex-column"
+                    >
+                      <li class="pt-md-5">
+                        <a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="https://share.hsforms.com/1S20a8jlKRHefq9-tbCMlyAcyakh"
+                          >Privacy Policy</a
+                        ><a
+                          class="st-root-link nav-link text-contrast footer-nav-link"
+                          href="features.html"
+                          >Terms of Service</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row gap-y text-center text-md-start">
+            <hr class="mt-5" />
+          </div>
+
+          <div class="small align-items-center container py-2">
+            <div class="col-md-4">
+              <p class="mt-2 mb-md-0 text-contrast text-center text-md-start">
+                &copy; 2023 WellStory. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <!-- themeforest:js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/counterup2.js"></script>
+    <script src="js/noise.js"></script>
+    <script src="js/noframework.waypoints.js"></script>
+    <script src="js/odometer.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/simplebar.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.smartWizard.js"></script>
+    <script src="js/feather.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/cookieconsent.js"></script>
+    <script src="js/jquery.animatebar.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/stripe-bubbles.js"></script>
+    <script src="js/stripe-menu.js"></script>
+    <script src="js/credit-card.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/svg.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/wizards.js"></script>
+    <script src="js/cookie-consent-util.js"></script>
+    <script src="js/cookie-consent-themes.js"></script>
+    <script src="js/cookie-consent-custom-css.js"></script>
+    <script src="js/cookie-consent-informational.js"></script>
+    <script src="js/cookie-consent-opt-out.js"></script>
+    <script src="js/cookie-consent-opt-in.js"></script>
+    <script src="js/cookie-consent-location.js"></script>
+    <script src="js/demo.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
